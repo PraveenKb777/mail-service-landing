@@ -18,7 +18,9 @@ const Button: FC<TButton> = ({
         variant === "plain" ? "bordered-button" : ""
       } ${disabled && "no-box title-btn"} ${props.title && "title-btn"}`}
       {...props}
-      title={disabled ? "This button is option at this moment" : props.title}
+      title={
+        disabled ? "This Option is not available at this moment" : props.title
+      }
       disabled={disabled}
     >
       {label}
