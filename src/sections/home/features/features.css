@@ -1,0 +1,30 @@
+.features-main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  border-bottom: 1px solid #eee;
+}
+.cards-container {
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+}
+
+@media screen and (max-width: 1000px) {
+  .cards-container {
+    align-items: stretch;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

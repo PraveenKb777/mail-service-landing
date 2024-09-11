@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+
+  --primary: #32bc9b;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.footer-last {
+  margin: 20px;
+}
+
+.footer-last > a {
+  margin: 0 10px;
+  color: #b5b2b2;
+  cursor: pointer;
+  text-decoration: none;
+}
