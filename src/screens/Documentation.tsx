@@ -19,9 +19,9 @@ const SendEmailDocumentation = () => {
           marginLeft: 0,
         }}
       >
-        This has been designed and developed to work with cloudflare workers
-        mainly still it will work with all languages. Which can send a post
-        request.
+        Although it was primarily created and tailored to work Edge services
+        like Cloudflare workers, it may be used with any language. that is able
+        to post a request.
       </p>
       {/* Base URL Section */}
       <div style={{ marginBottom: "20px" }}>
