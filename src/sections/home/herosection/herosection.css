@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: url("src/assets/cursorIcon.png") 16 17, pointer;
+  cursor: url("../../../assets/cursorIcon.png") 16 17, pointer;
 }
 
 .hero-heading {
